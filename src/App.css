@@ -1,0 +1,76 @@
+body{
+  background-color: #000;
+  color: white
+}
+
+a{
+  text-decoration: none;
+  color:#fff 
+}
+
+.App{
+  text-align: center;
+  padding: 5%
+}
+
+.App-title{
+  font-size: 26px;
+}
+
+.Profile{
+  display: flex;
+  justify-content: center
+}
+
+.Profile-image{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 75px;
+  object-fit: cover;
+}
+
+.Profile-info{
+  text-align: left;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.Profile-name{
+  font-size: 26px
+}
+
+.Profile-total, .Profile-link{
+  font-size: 18px
+}
+
+.track{
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.track-img{
+  width: 220px;
+  height: 220px;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.track-name{
+  position: absolute;
+  background: #000;
+  color: #fff;
+  width: 214px;
+  margin-left: 3px;
+  bottom: 0px;
+  opacity: 0.7
+}
